@@ -163,7 +163,7 @@ export default function Home() {
     visibleProjects.length === 0
       ? "لا توجد مشاريع ضمن النطاق المختار"
       : activeCount > 0
-        ? `قيد التنفيذ — ${activeCount} مشروعاً يحتاج متابعة`
+        ? `قيد التنفيذ — ${activeCount} مشروعاً`
         : status === "مكتمل"
           ? "النطاق المختار مكتمل"
           : "النطاق المختار بانتظار البدء";
