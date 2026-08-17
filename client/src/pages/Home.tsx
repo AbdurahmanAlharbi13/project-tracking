@@ -163,14 +163,14 @@ export default function Home() {
     visibleProjects.length === 0
       ? "لا توجد مشاريع ضمن النطاق المختار"
       : activeCount > 0
-        ? `التنفيذ مستمر — ${activeCount} مشروعاً يحتاج متابعة`
+        ? `التنفيذ قيد — ${activeCount} مشروعاً يحتاج متابعة`
         : status === "مكتمل"
           ? "النطاق المختار مكتمل"
           : "النطاق المختار بانتظار البدء";
   const decisionDetail =
     challengeCount > 0
       ? `${challengeCount} تنبيه مسجل يحتاج مراجعة قبل الانتقال للقرار التالي.`
-      : "راجع المشاريع حسب الحالة، ثم انتقل إلى التفاصيل لتحديد الإجراء التالي.";
+      : "لوحة متابعة تنفيذ مشروع ميزان المراجعة، مع عرض الحالة ونسب الإنجاز والإجراءات المطلوبة";
 
   const resetFilters = () => {
     setTeam("الكل");
@@ -333,10 +333,10 @@ export default function Home() {
         </section>
 
         <section className="mt-7 grid gap-3 md:grid-cols-2 xl:grid-cols-4" aria-label="المؤشرات الرئيسية">
-          <MetricCard label="إجمالي المشاريع" value={visibleProjects.length} note="نطاق مرشح للقرار الحالي" icon={Layers3} tone="navy" />
-          <MetricCard label="متوسط الإنجاز" value={`${averageCompletion}%`} note="متوسط التنفيذ للمشاريع المسجلة" icon={TrendingUp} tone="blue" />
+          <MetricCard label="إجمالي المشاريع" value={visibleProjects.length} note="إجمالي المشاريع المسجلة ضمن نطاق ميزان المراجعة" icon={Layers3} tone="navy" />
+          <MetricCard label="متوسط الإنجاز" value={`${averageCompletion}%`} note="متوسط نسبة الإنجاز" icon={TrendingUp} tone="blue" />
           <MetricCard label="التنفيذ النشط" value={activeCount} note="مشروع يحتاج توجيهاً ومتابعة" icon={Target} tone="sky" />
-          <MetricCard label="تنبيهات مسجلة" value={challengeCount} note="راجع مواضع التعثر قبل الإغلاق" icon={AlertTriangle} tone="amber" />
+          <MetricCard label="تنبيهات مسجلة" value={challengeCount} note="ملاحظات أو حالات تتطلب إجراءً" icon={AlertTriangle} tone="amber" />
         </section>
 
         <section className="mt-7 grid gap-6 xl:grid-cols-[minmax(0,1.3fr)_minmax(330px,0.7fr)]">
