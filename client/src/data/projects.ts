@@ -120,7 +120,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": null,
+    "completion": 0,
     "challenges": "",
     "notes": ""
   },
@@ -156,7 +156,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": null,
+    "completion": 0,
     "challenges": "",
     "notes": ""
   },
@@ -216,7 +216,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": null,
+    "completion": 0,
     "challenges": "",
     "notes": ""
   },
@@ -228,7 +228,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": null,
+    "completion": 0,
     "challenges": "",
     "notes": ""
   },
@@ -264,7 +264,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": null,
+    "completion": 0,
     "challenges": "",
     "notes": ""
   },
