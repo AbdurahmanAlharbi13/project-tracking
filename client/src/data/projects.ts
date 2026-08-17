@@ -35,8 +35,8 @@ export const projects: Project[] = [
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
-    "status": "قيد التنفيذ",
-    "completion": 90,
+    "status": "مكتمل",
+    "completion": 100,
     "challenges": "",
     "notes": ""
   },
@@ -168,7 +168,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 23,
+    "completion": 25,
     "challenges": "",
     "notes": ""
   },
@@ -180,7 +180,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": null,
+    "completion": 0,
     "challenges": "لم يبدأ العمل على الأرصدة الافتتاحية بعد",
     "notes": ""
   },
@@ -239,7 +239,7 @@ export const projects: Project[] = [
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
-    "status": "مكتمل",
+    "status": "قيد التنفيذ",
     "completion": 90,
     "challenges": "",
     "notes": ""
