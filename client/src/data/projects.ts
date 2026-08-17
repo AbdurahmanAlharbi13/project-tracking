@@ -307,7 +307,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-24",
     "name": "بدء تشغيل وتفعيل نظام موارد الصحية الجبيل",
-    "team": "غير محدد",
+    "team": "الفريق التقني/الفريق المالي",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
@@ -319,7 +319,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-25",
     "name": "بدء تشغيل وتفعيل نظام موارد الصحية ينبع",
-    "team": "غير محدد",
+    "team": "الفريق التقني/الفريق المالي",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
@@ -331,7 +331,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-26",
     "name": "تهيئة العمليات المالية وفحص ومراقبة البيانات",
-    "team": "غير محدد",
+    "team": "الفريق التقني/الفريق المالي",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
@@ -343,7 +343,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-27",
     "name": "الإعداد الأولي لميزان المراجعة",
-    "team": "غير محدد",
+    "team": "الفريق التقني/الفريق المالي",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
@@ -355,7 +355,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-28",
     "name": "الربط التقني بين نظام موارد الهيئة والصحية",
-    "team": "غير محدد",
+    "team": "الفريق التقني/الفريق المالي",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
