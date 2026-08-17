@@ -30,7 +30,7 @@ export type Task = {
 export const projects: Project[] = [
   {
     "id": "MFS-01",
-    "name": "الإستخراجج الأولي لميزان المراجعة للمركز الرئيس 2025",
+    "name": "الإستخراججج الأولي لميزان المراجعة للمركز الرئيس 2025",
     "team": "الفريق التقني/الفريق المالي",
     "startDate": "",
     "plannedEndDate": "",
