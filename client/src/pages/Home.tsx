@@ -264,7 +264,7 @@ export default function Home() {
             </div>
             <div className="decision-facts">
               <div><span>النطاق</span><strong>{visibleProjects.length}</strong><small>مشروع ظاهر</small></div>
-              <div><span>الإنجاز</span><strong>{averageCompletion}%</strong><small>متوسط مسجل</small></div>
+              <div><span>الإنجاز</span><strong>{averageCompletion}%</strong><small>نسبة الإنجاز</small></div>
             </div>
           </div>
           <div className="header-signal">
@@ -333,7 +333,7 @@ export default function Home() {
         </section>
 
         <section className="mt-7 grid gap-3 md:grid-cols-2 xl:grid-cols-4" aria-label="المؤشرات الرئيسية">
-          <MetricCard label="إجمالي المشاريع" value={visibleProjects.length} note="إجمالي المشاريع المسجلة ضمن نطاق ميزان المراجعة" icon={Layers3} tone="navy" />
+          <MetricCard label="إجمالي المشاريع" value={visibleProjects.length} note="إجمالي المشاريع" icon={Layers3} tone="navy" />
           <MetricCard label="متوسط الإنجاز" value={`${averageCompletion}%`} note="متوسط نسبة الإنجاز" icon={TrendingUp} tone="blue" />
           <MetricCard label="التنفيذ النشط" value={activeCount} note="مشروع يحتاج توجيهاً ومتابعة" icon={Target} tone="sky" />
           <MetricCard label="تنبيهات مسجلة" value={challengeCount} note="ملاحظات أو حالات تتطلب إجراءً" icon={AlertTriangle} tone="amber" />
