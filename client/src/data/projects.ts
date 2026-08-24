@@ -119,7 +119,7 @@ export const projects: Project[] = [
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
-    "status": "مكتمل",
+    "status": "قيد التنفيذ",
     "completion": 100,
     "challenges": "",
     "notes": ""
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
-    "status": "مكتمل",
+    "status": "قيد التنفيذ",
     "completion": 100,
     "challenges": "",
     "notes": ""
