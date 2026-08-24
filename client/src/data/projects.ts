@@ -120,7 +120,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": 0,
+    "completion": 100,
     "challenges": "",
     "notes": ""
   },
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 40,
+    "completion": 70,
     "challenges": "",
     "notes": ""
   },
@@ -156,7 +156,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "لم يبدأ",
-    "completion": 0,
+    "completion": 100,
     "challenges": "",
     "notes": ""
   },
@@ -168,7 +168,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 25,
+    "completion": 40,
     "challenges": "",
     "notes": ""
   },
@@ -312,7 +312,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 80,
+    "completion": 90,
     "challenges": "",
     "notes": ""
   },
@@ -324,7 +324,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 50,
+    "completion": 70,
     "challenges": "",
     "notes": ""
   },
@@ -336,7 +336,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 20,
+    "completion": 80,
     "challenges": "",
     "notes": ""
   },
