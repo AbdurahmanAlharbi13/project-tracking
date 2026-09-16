@@ -48,7 +48,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 10,
+    "completion": 88,
     "challenges": "",
     "notes": ""
   },
@@ -271,7 +271,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-21",
     "name": "معالجة الحركات التاريخية للمدفوعات واغلاق الفترات التاريخية",
-    "team": "الفريق التقني/الفريق المالي",
+    "team": "الفريق التقني",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
@@ -283,7 +283,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-22",
     "name": "معالجة إشكالية تحديد تاريخ الغاء فواتير المدفوعات",
-    "team": "الفريق المالي التقني",
+    "team": "الفريق التقني",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
@@ -295,7 +295,7 @@ export const projects: Project[] = [
   {
     "id": "MFS-23",
     "name": "معالجة تأثير مناقلات الأصول على مركز تكلفة إدارة المستودعات فيما يخص الحركات المخزنية",
-    "team": "الفريق المالي التقني",
+    "team": "الفريق التقني",
     "startDate": "",
     "plannedEndDate": "",
     "actualEndDate": "",
