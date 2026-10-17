@@ -241,7 +241,7 @@ export const projects: Project[] = [
     "actualEndDate": "",
     "status": "مكتمل",
     "completion": 100,
-    "challenges": "",
+    "challenges": "سس",
     "notes": ""
   },
   {
