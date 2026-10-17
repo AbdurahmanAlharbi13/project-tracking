@@ -240,7 +240,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 90,
+    "completion": 100,
     "challenges": "",
     "notes": ""
   },
