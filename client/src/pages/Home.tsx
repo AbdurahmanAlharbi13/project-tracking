@@ -105,16 +105,22 @@ export default function Home() {
     [scopeProjects, status],
   );
 
-  const visibleTasks = useMemo(
-    () =>
-      tasks.filter(
-        (task) =>
-          (team === "الكل" || task.team === team) &&
-          (projectId === "الكل" || task.projectId === projectId) &&
-          (status === "الكل" || task.status === status),
-      ),
-    [team, projectId, status],
-  );
+const visibleTasks = useMemo(
+  () =>
+    tasks.filter((task) => {
+      const project = projects.find(
+        (project) => project.id === task.projectId,
+      );
+
+      return (
+        (team === "الكل" || task.team === team) &&
+        (projectId === "الكل" || task.projectId === projectId) &&
+        (status === "الكل" || project?.status === status)
+      );
+    }),
+  [team, projectId, status],
+);
+
 
   const statusCounts = useMemo(
     () =>
