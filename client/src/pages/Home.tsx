@@ -485,7 +485,7 @@ export default function Home() {
   </div>
 
   <div className="mt-5 space-y-3">
-    {visibleTasks.slice(0, 4).map((task) => (
+    {visibleTasks.map((task) => (
       <div key={task.id} className="task-row">
         <span className="task-check">
           <CheckCircle2 className="h-4 w-4" />
