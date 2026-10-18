@@ -492,9 +492,7 @@ export default function Home() {
         </span>
 
         <div>
-        <p className="text-sm leading-6 font-normal text-slate-600">
-  {task.name}
-</p>
+          <p>{task.name}</p>
           <span>{task.status}</span>
 
           {task.notes && (
