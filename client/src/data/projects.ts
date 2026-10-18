@@ -60,7 +60,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 30,
+    "completion": 35,
     "challenges": "",
     "notes": ""
   },
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 30,
+    "completion": 35,
     "challenges": "",
     "notes": ""
   },
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 10,
+    "completion": 50,
     "challenges": "",
     "notes": ""
   },
@@ -168,7 +168,7 @@ export const projects: Project[] = [
     "plannedEndDate": "",
     "actualEndDate": "",
     "status": "قيد التنفيذ",
-    "completion": 40,
+    "completion": 50,
     "challenges": "",
     "notes": ""
   },
@@ -437,7 +437,7 @@ export const tasks: Task[] = [
     "name": "ايراد الموازنة يتم الاعتراف بها يدويا وليس آليا مما قد يؤدي لحدوث اخطاء",
     "team": "الفريق التقني/الفريق المالي",
     "status": "قيد التنفيذ",
-    "completion": 100,
+    "completion": 50,
     "priority": "",
     "notes": `1- تم سحب ملفات القيود التمهيدية لايراد الموازنة وتم مراجعته من جانب إدارة الحسابات وافادتنا بالملاحظات
 2- جاري معالجة الملاحظات وسيتم ارسال ملف جديد لمراجعته واعتمادة من جانب إدارة الحسابات 
