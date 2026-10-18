@@ -473,15 +473,41 @@ export default function Home() {
               <div className="task-stat"><span>المكتملة</span><strong>{completedTasks}</strong></div>
             </div>
             <div className="mt-5 space-y-3">
-              {visibleTasks.slice(0, 4).map((task) => (
+              {/* {visibleTasks.slice(0, 4).map((task) => (
                 <div key={task.id} className="task-row">
                   <span className="task-check"><CheckCircle2 className="h-4 w-4" /></span>
                   <div>
                     <p>{task.name}</p>
                     <span>{task.projectId} · {task.status}</span>
                   </div>
-                </div>
-              ))}
+                </div> */}
+
+                
+{visibleTasks.slice(0, 4).map((task) => (
+  <div key={task.id} className="task-row">
+    <span className="task-check">
+      <CheckCircle2 className="h-4 w-4" />
+    </span>
+
+    <div>
+      <p>{task.name}</p>
+
+      <span>
+        {task.projectId} · {task.status}
+      </span>
+
+      {task.notes && (
+        <p className="mt-2 text-sm leading-6 text-slate-600">
+          <strong>ملاحظات:</strong> {task.notes}
+        </p>
+      )}
+    </div>
+  </div>
+))}
+
+
+
+              
               {!visibleTasks.length && <p className="muted-empty">لا توجد مهام ضمن الفلاتر الحالية.</p>}
             </div>
           </div>
