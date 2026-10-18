@@ -375,7 +375,7 @@ export const tasks: Task[] = [
     "status": "مكتمل",
     "completion": 100,
     "priority": "",
-    "notes": "جاري العم"
+    "notes": "جاري العمم"
   },
   {
     "id": "TASK-02",
