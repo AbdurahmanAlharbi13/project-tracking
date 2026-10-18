@@ -461,56 +461,62 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="panel task-panel">
-            <div className="panel-heading">
-              <div>
-                <div className="panel-eyebrow"><CheckCircle2 className="h-4 w-4" /> مهام مرتبطة</div>
-                <h3>ملخص التنفيذ</h3>
-              </div>
-            </div>
-            <div className="mt-5 grid grid-cols-2 gap-3">
-              <div className="task-stat"><span>إجمالي المهام</span><strong>{visibleTasks.length}</strong></div>
-              <div className="task-stat"><span>المكتملة</span><strong>{completedTasks}</strong></div>
-            </div>
-            <div className="mt-5 space-y-3">
-              {/* {visibleTasks.slice(0, 4).map((task) => (
-                <div key={task.id} className="task-row">
-                  <span className="task-check"><CheckCircle2 className="h-4 w-4" /></span>
-                  <div>
-                    <p>{task.name}</p>
-                    <span>{task.projectId} · {task.status}</span>
-                  </div>
-                </div> */}
-
-                
-{visibleTasks.slice(0, 4).map((task) => (
-  <div key={task.id} className="task-row">
-    <span className="task-check">
-      <CheckCircle2 className="h-4 w-4" />
-    </span>
-
+<div className="panel task-panel">
+  <div className="panel-heading">
     <div>
-      <p>{task.name}</p>
-
-      <span>
-        {task.status}
-      </span>
-
-      {task.notes && (
-        <p className="mt-2 text-sm leading-6 text-slate-600">
-          <strong>ملاحظات:</strong> {task.notes}
-        </p>
-      )}
+      <div className="panel-eyebrow">
+        <CheckCircle2 className="h-4 w-4" />
+        مهام مرتبطة
+      </div>
+      <h3>ملخص التنفيذ</h3>
     </div>
   </div>
-))}
 
+  <div className="mt-5 grid grid-cols-2 gap-3">
+    <div className="task-stat">
+      <span>إجمالي المهام</span>
+      <strong>{visibleTasks.length}</strong>
+    </div>
 
+    <div className="task-stat">
+      <span>المكتملة</span>
+      <strong>{completedTasks}</strong>
+    </div>
+  </div>
 
-              
-              {!visibleTasks.length && <p className="muted-empty">لا توجد مهام ضمن الفلاتر الحالية.</p>}
+  <div className="mt-5 space-y-3">
+    {visibleTasks.slice(0, 4).map((task) => (
+      <div key={task.id} className="task-row">
+        <span className="task-check">
+          <CheckCircle2 className="h-4 w-4" />
+        </span>
+
+        <div>
+          <p>{task.name}</p>
+          <span>{task.status}</span>
+
+          {task.notes && (
+            <div className="mt-2 text-sm leading-6 text-slate-600">
+              <strong>ملاحظات:</strong>
+
+              <div className="whitespace-pre-line">
+                {task.notes}
+              </div>
             </div>
-          </div>
+          )}
+        </div>
+      </div>
+    ))}
+
+    {!visibleTasks.length && (
+      <p className="muted-empty">
+        لا توجد مهام ضمن الفلاتر الحالية.
+      </p>
+    )}
+  </div>
+</div>
+
+
         </section>
 
         {selectedProject && (
