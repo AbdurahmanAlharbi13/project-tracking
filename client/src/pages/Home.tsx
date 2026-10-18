@@ -493,7 +493,7 @@ export default function Home() {
       <p>{task.name}</p>
 
       <span>
-        {task.projectId} · {task.status}
+        {task.status}
       </span>
 
       {task.notes && (
